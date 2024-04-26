@@ -15,7 +15,7 @@ void loop() {
   float voltageDif = voltage2 - voltage1;
   Serial.println(voltageDif);
   delay(1);
-  // if (voltageDif < 0.1) {
+  // if (voltageDif < 0.35) {
   //   digitalWrite(optoSw,LOW);
   //   Serial.println("0");
   // }
